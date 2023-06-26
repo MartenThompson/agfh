@@ -1,0 +1,5 @@
+setwd('~/Git/agfh/')
+library(profr)
+source('mcmc/mh_within_gibbs_evolveg.R')
+l <- profr(profile_mhg())
+plot(l)
