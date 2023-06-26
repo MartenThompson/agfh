@@ -1,0 +1,26 @@
+{
+    "id": "35784EC2",
+    "path": "~/Git/agfh/package/agfh/R/agnostic_fh.R",
+    "project_path": "R/agnostic_fh.R",
+    "type": "r_source",
+    "hash": "2806268392",
+    "contents": "",
+    "dirty": false,
+    "created": 1687359786227.0,
+    "source_on_save": false,
+    "relative_order": 6,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "90,0",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1684433800,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1684433800,
+    "read_only": false,
+    "read_only_alternatives": []
+}

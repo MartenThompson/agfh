@@ -1,0 +1,14 @@
+#PBS -q batch
+#PBS -l nodes=1:ppn=2
+#PBS -l mem=16gb
+#PBS -l walltime=48:00:00
+#PBS -N reps_gamma
+#PBS -o reps_gamma.out
+#PBS -e reps_gamma.err
+#PBS -m abe
+#PBS -M thom7058@umn.edu
+
+cd $PBS_O_WORKDIR/
+cd ~/Documents/agfh
+module load R/4.0.2
+Rscript --vanilla analysis/rep_analysis_gamma.R

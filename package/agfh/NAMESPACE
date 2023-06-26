@@ -1,0 +1,37 @@
+import(ggplot2)
+importFrom('graphics', 'lines')
+import(goftest, ks, stats)
+#importFrom('stats', 'density', 'dist', 'ks.test', 'optim', 'pchisq', 'predict',
+#           'rgamma', 'rnorm', 'runif', 'sd', 'shapiro.test')
+
+# Traditional Frequentist/EB
+export(RM_beta_eblue)
+export(RM_theta_var_moment_est)
+export(adj_profile_likelihood_theta_var_maker)
+export(adj_resid_likelihood_theta_var_maker)
+export(resid_likelihood_theta_var_maker)
+export(theta_var_est_grid)
+export(RM_theta_eblup)
+export(RM_theta_new_pred)
+
+# Traditional Hierarchical Bayes
+export(make_gibbs_sampler)
+export(hb_theta_new_pred)
+
+# Agnostic Fay-Herriot
+export(make_agfh_sampler)
+export(map_from_density)
+export(mse)
+export(agfh_theta_new_pred)
+
+# Testing Normality of Errors
+export(shapiro_wilk)
+export(kolmogorov_smirnov)
+export(cramer_vonmises)
+export(anderson_darling)
+export(test_u_normal)
+
+# Data Generation
+export(null_gen)
+export(beta_err_gen)
+export(gamma_err_gen)

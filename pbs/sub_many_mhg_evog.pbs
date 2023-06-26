@@ -1,0 +1,14 @@
+#PBS -q batch
+#PBS -l nodes=1:ppn=2
+#PBS -l mem=16gb
+#PBS -l walltime=48:00:00
+#PBS -N many_mhg_evog
+#PBS -o many_mhg_evog.out
+#PBS -e many_mhg_evog.err
+#PBS -m abe
+#PBS -M thom7058@umn.edu
+
+cd $PBS_O_WORKDIR/
+cd ~/Documents/agfh
+module load R/4.0.2
+Rscript --vanilla analysis/many_analysis_mhg_evolveg.R
